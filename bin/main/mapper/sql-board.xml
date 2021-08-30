@@ -70,7 +70,7 @@
 				title = #{title},
 				contents = #{contents},
 				updated_datetime = Now(),
-				updater_id = 'admin'
+				updated_id = 'admin'
 			WHERE 
 				board_idx = #{boardIdx}
 		]]>
@@ -81,7 +81,7 @@
 			UPDATE t_board SET 
 				deleted_yn = 'Y',
 				updated_datetime = Now(),
-				updater_id = 'admin'
+				updated_id = 'admin'
 			WHERE 
 				board_idx = #{boardIdx}
 		]]>
