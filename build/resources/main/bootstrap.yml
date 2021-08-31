@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      uri: http://34.64.221.140:8888
+      name: cloud-config
