@@ -5,6 +5,7 @@ import java.util.Properties;
 import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.jboss.jandex.Main;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.slf4j.Logger;
@@ -22,6 +23,7 @@ import com.zaxxer.hikari.HikariDataSource;
 public class DatabaseConfiguration {
 
 	private Logger log = LoggerFactory.getLogger(this.getClass());
+	
 
 	@Autowired
 	private ApplicationContext applicationContext;

@@ -20,6 +20,13 @@ repositories {
 	mavenCentral()
 }
 
+
+bootWar {
+  mainClassName = 'board.BoardApplication'
+}
+
+
+
 ext{
 	springCloudVersion = 'Finchley.RELEASE'
 }

@@ -21,7 +21,7 @@ import board.board.service.BoardService;
 
 @Controller
 public class BoardController {
-	
+	//jenkins auto commit test annotation
 	@Autowired
 	private BoardService boardService; 
 	
